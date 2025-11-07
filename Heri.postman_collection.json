@@ -1,0 +1,256 @@
+{
+	"id": "18791458-a3cf-45fd-ab22-79c14089b456",
+	"name": "pertemuan 6",
+	"timestamp": "2025-09-25T08:58:11.648Z",
+	"collection_id": "47980431-e6d24bc5-7820-4609-882c-bf5c52571424",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-09-25T08:58:10.537Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "636b2772-9524-4c2a-9799-e3ac3e574481",
+			"name": "movies",
+			"url": "http://localhost:3300/movies",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status respons adalah 200 OK": true,
+				"Header Content-Type adalah application/json": true,
+				"Body respons adalah sebuah array": true
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header Content-Type adalah application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body respons adalah sebuah array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Status respons adalah 200 OK": true,
+					"Header Content-Type adalah application/json": true,
+					"Body respons adalah sebuah array": true
+				}
+			]
+		},
+		{
+			"id": "4983b835-29b0-4c2c-bcc3-35b9e3771b91",
+			"name": "movies/1",
+			"url": "http://localhost:3300/movies/1",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status respons adalah 200 OK": true,
+				"Respons adalah objek dengan skema yang benar": true,
+				"Nilai ID di dalam respons sesuai dengan yang diminta": true
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Respons adalah objek dengan skema yang benar": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nilai ID di dalam respons sesuai dengan yang diminta": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status respons adalah 200 OK": true,
+					"Respons adalah objek dengan skema yang benar": true,
+					"Nilai ID di dalam respons sesuai dengan yang diminta": true
+				}
+			]
+		},
+		{
+			"id": "8ad03bca-2c25-4b8e-96c8-2b6c1d2bbd0f",
+			"name": "movies/999",
+			"url": "http://localhost:3300/movies/999",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status respons adalah 200 OK": false,
+				"Respons adalah objek dengan skema yang benar": false,
+				"Nilai ID di dalam respons sesuai dengan yang diminta": false,
+				"Status respons adalah 404 Not Found": true
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 200 OK": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Respons adalah objek dengan skema yang benar": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Nilai ID di dalam respons sesuai dengan yang diminta": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status respons adalah 404 Not Found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status respons adalah 200 OK": false,
+					"Respons adalah objek dengan skema yang benar": false,
+					"Nilai ID di dalam respons sesuai dengan yang diminta": false,
+					"Status respons adalah 404 Not Found": true
+				}
+			]
+		},
+		{
+			"id": "810c2344-e5e9-4fc8-9121-c7671b7a763c",
+			"name": "movies",
+			"url": "http://localhost:3300/movies",
+			"time": 10,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status respons adalah 201 Created": true,
+				"Respons berisi ID film yang baru dibuat dan menyimpannya": true
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 201 Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Respons berisi ID film yang baru dibuat dan menyimpannya": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status respons adalah 201 Created": true,
+					"Respons berisi ID film yang baru dibuat dan menyimpannya": true
+				}
+			]
+		},
+		{
+			"id": "47d09cca-0bd4-42b8-b141-7b95a9a5ed48",
+			"name": "movies",
+			"url": "http://localhost:3300/movies/1",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status respons adalah 200 OK": true
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 200 OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status respons adalah 200 OK": true
+				}
+			]
+		},
+		{
+			"id": "f923a9a4-de2d-4430-a202-fc8dfed2d531",
+			"name": "movies/16",
+			"url": "http://localhost:3300/movies/16",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status respons adalah 204 No Content": false
+			},
+			"testPassFailCounts": {
+				"Status respons adalah 204 No Content": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status respons adalah 204 No Content": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 177,
+	"collection": {
+		"requests": [
+			{
+				"id": "636b2772-9524-4c2a-9799-e3ac3e574481",
+				"method": "GET"
+			},
+			{
+				"id": "4983b835-29b0-4c2c-bcc3-35b9e3771b91",
+				"method": "GET"
+			},
+			{
+				"id": "8ad03bca-2c25-4b8e-96c8-2b6c1d2bbd0f",
+				"method": "GET"
+			},
+			{
+				"id": "810c2344-e5e9-4fc8-9121-c7671b7a763c",
+				"method": "POST"
+			},
+			{
+				"id": "47d09cca-0bd4-42b8-b141-7b95a9a5ed48",
+				"method": "PUT"
+			},
+			{
+				"id": "f923a9a4-de2d-4430-a202-fc8dfed2d531",
+				"method": "DELETE"
+			}
+		]
+	}
+}

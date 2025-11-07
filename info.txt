@@ -1,0 +1,3 @@
+variable
+function -> arrow function
+object (method didalam object)
